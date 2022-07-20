@@ -34,4 +34,7 @@ void PrintArray(string[] SecondArray)
 }
 
 GetArraysecond(FirstArray, SecondArray);
+Console.WriteLine("Изночальный массив ");
+PrintArray(FirstArray);
+Console.WriteLine("Полученный массив ");
 PrintArray(SecondArray);
